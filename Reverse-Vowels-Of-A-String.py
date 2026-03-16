@@ -1,6 +1,6 @@
 class Solution:
     def reverseVowels(self, s: str) -> str:
-        n = len(s)
+        n: int = len(s)
 
         def isVowel(c) -> bool:
             return c in ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
